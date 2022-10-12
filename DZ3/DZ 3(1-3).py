@@ -12,8 +12,6 @@
 
 
 #Время
-#n = int(input("Введите время: "))
-#if n < 1441:
-#    nhour = n//60
-#    nmin = n%60
-#print(nhour, nmin, sep=":")
+n = int(input("Введите время"))
+print((n % 1440) // 60)
+print(n % 60)
