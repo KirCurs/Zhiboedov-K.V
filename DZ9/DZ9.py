@@ -1,3 +1,4 @@
+# -- coding: utf-8 -
 def f1():
     from random import random as r
     n,k=map(int,input('n k > ').split())
